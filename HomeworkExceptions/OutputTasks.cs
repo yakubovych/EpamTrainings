@@ -19,7 +19,7 @@
             {
                 GeneratorOfExceptions.GenerateStackOverflowException();
             }
-            catch(StackOverflowException e)
+            catch (StackOverflowException e)
             {
                 Output.Write(e.Message);
             }
