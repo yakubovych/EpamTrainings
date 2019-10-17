@@ -17,6 +17,7 @@
             try
             {
                 Output.Write("\n--- Task1 ---");
+
                 Output.Write("Enter path to directory: ");
                 string path = Output.Read();
                 DirectoriesVisualizer directories = new DirectoriesVisualizer($@"{path}");
@@ -27,9 +28,11 @@
 
                 Output.Write("----------------------------");
 
-                Output.Write("\n--- Task1 ---");
+                Output.Write("\n--- Task2 ---");
 
-                FindNotAFullNameFile fullName = new FindNotAFullNameFile($@"{path}");
+                Output.Write("Enter partial name of file: ");
+                string partialName = Output.Read();
+                FindNotAFullNameFile fullName = new FindNotAFullNameFile($@"{path}", partialName);
                 fullName.GetVisualize();
 
                 Output.Write("----------------------------");

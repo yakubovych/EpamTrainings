@@ -1,11 +1,13 @@
 ﻿namespace HomeworkExceptions
 {
     using System;
+    using HomeworkLogger;
     using LibraryOfProject;
 
     public class OutputTasks
     {
         private IConsole Output;
+        LoggerRealisation logger = new LoggerRealisation(new Output());
 
         public OutputTasks(IConsole Output)
         {
@@ -21,7 +23,7 @@
             }
             catch (StackOverflowException e)
             {
-                Output.Write(e.Message);
+                logger.Log(e.Message);
             }
 
             Output.Write("----------------------------");
@@ -33,7 +35,7 @@
             }
             catch (IndexOutOfRangeException e)
             {
-                Output.Write(e.Message);
+                logger.Log(e.Message);
             }
 
             Output.Write("----------------------------");
@@ -53,11 +55,11 @@
             }
             catch (StackOverflowException e)
             {
-                Output.Write(e.Message);
+                logger.Log(e.Message);
             }
             catch (IndexOutOfRangeException e)
             {
-                Output.Write(e.Message);
+                logger.Log(e.Message);
             }
 
             Output.Write("----------------------------");
@@ -72,12 +74,12 @@
             catch (ArgumentException e)
             when (e.ParamName == "a")
             {
-                Output.Write(e.Message);
+                logger.Log(e.Message);
             }
             catch (ArgumentException e)
             when (e.ParamName == "b")
             {
-                Output.Write(e.Message);
+                logger.Log(e.Message);
             }
 
             Output.Write("----------------------------");

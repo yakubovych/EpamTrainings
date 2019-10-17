@@ -6,12 +6,13 @@
 
     class FindNotAFullNameFile : IOperation
     {
-        private string partialName = "ep";
+        private string partialName;
         private string nameOfDirectory;
 
-        public FindNotAFullNameFile(string NameOfDirectory)
+        public FindNotAFullNameFile(string NameOfDirectory, string PartialName)
         {
             this.nameOfDirectory = NameOfDirectory;
+            this.partialName = PartialName;
         }
 
         public void GetVisualize()
