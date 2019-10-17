@@ -1,0 +1,13 @@
+17.10.2019 19:31:24	
+Operation caused a stack overflow.
+
+17.10.2019 19:31:24	
+Index was outside the bounds of the array.
+
+17.10.2019 19:31:24	
+Operation caused a stack overflow.
+
+17.10.2019 19:31:24	
+Parameter should be greater than 0
+Parameter name: a
+
