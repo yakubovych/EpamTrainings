@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -14,12 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HomeworkEnums\HomeworkEnums.csproj" />
-    <ProjectReference Include="..\HomeworkExceptions\HomeworkExceptions.csproj" />
-    <ProjectReference Include="..\HomeworkIoStream\HomeworkIoStreams.csproj" />
-    <ProjectReference Include="..\HomeworkLogger\HomeworkLogger.csproj" />
-    <ProjectReference Include="..\HomeworkSerialization\HomeworkSerialization.csproj" />
-    <ProjectReference Include="..\HomeworkStructures\HomeworkStructures.csproj" />
     <ProjectReference Include="..\LibraryOfProject\LibraryOfProject.csproj" />
   </ItemGroup>
 

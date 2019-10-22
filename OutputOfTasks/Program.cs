@@ -9,10 +9,12 @@
 
         static void Main(string[] args)
         {
+
             var runnerStructures = new HomeworkStructures.OutputTasks(new Output());
             var runnerEnums = new HomeworkEnums.OutputTasks(new Output());
             var runnnerExceptions = new HomeworkExceptions.OutputTasks(new Output());
             var runnerIoStreams = new HomeworkIoStreams.OutputTasks(new Output());
+            var runnerSerialization = new HomeworkSerialization.OutputTasks(new Output());
 
             while (!isCheckedHomework)
             {
@@ -23,6 +25,7 @@
                     "(2) Check tasks with Enums;\n" +
                     "(3) Check tasks with Exceptions;\n" +
                     "(4) Check tasks with IOStreams;\n" +
+                    "(5) Check tasks with Serialization;\n" +
                     "(0)  Exit.\n");
                 Console.WriteLine("What action do you choose?");
                 string number = Console.ReadLine();
@@ -45,6 +48,11 @@
                         break;
                     case "4":
                         runnerIoStreams.RunTasks();
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
+                    case "5":
+                        runnerSerialization.RunTasks();
                         Console.ReadKey();
                         Console.Clear();
                         break;

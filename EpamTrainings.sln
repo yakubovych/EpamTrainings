@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkExceptions", "Homew
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkIoStreams", "HomeworkIoStream\HomeworkIoStreams.csproj", "{0CBBD181-BAC1-4720-900B-09D54C081640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkLogger", "HomeworkLogger\HomeworkLogger.csproj", "{A466141D-52A7-439E-A4A0-4B993A86CDB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkLogger", "HomeworkLogger\HomeworkLogger.csproj", "{A466141D-52A7-439E-A4A0-4B993A86CDB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkSerialization", "HomeworkSerialization\HomeworkSerialization.csproj", "{954A3752-D2B1-49B1-9309-E560BAFA6E92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{A466141D-52A7-439E-A4A0-4B993A86CDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A466141D-52A7-439E-A4A0-4B993A86CDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A466141D-52A7-439E-A4A0-4B993A86CDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954A3752-D2B1-49B1-9309-E560BAFA6E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954A3752-D2B1-49B1-9309-E560BAFA6E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954A3752-D2B1-49B1-9309-E560BAFA6E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954A3752-D2B1-49B1-9309-E560BAFA6E92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
