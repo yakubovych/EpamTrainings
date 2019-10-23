@@ -18,6 +18,7 @@
     <ProjectReference Include="..\HomeworkExceptions\HomeworkExceptions.csproj" />
     <ProjectReference Include="..\HomeworkIoStream\HomeworkIoStreams.csproj" />
     <ProjectReference Include="..\HomeworkLogger\HomeworkLogger.csproj" />
+    <ProjectReference Include="..\HomeworkReflection\HomeworkReflection.csproj" />
     <ProjectReference Include="..\HomeworkSerialization\HomeworkSerialization.csproj" />
     <ProjectReference Include="..\HomeworkStructures\HomeworkStructures.csproj" />
     <ProjectReference Include="..\LibraryOfProject\LibraryOfProject.csproj" />
