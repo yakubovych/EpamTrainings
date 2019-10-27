@@ -2,21 +2,35 @@
 {
     using System;
     using LibraryOfProject;
+    using NLog;
     using System.Configuration;
 
     class Program
     {
+        private static Logger logger = LogManager.GetCurrentClassLogger();
+
         static void Main(string[] args)
         {
-            LoggerRealisation logerDll = new LoggerRealisation(new Output());
+            // Custom Logger example
+            //LoggerRealisation logerDll = new LoggerRealisation(new Output());
+            //try
+            //{
+            //    FakeError fakeError = new FakeError();
+            //    fakeError.DoSomeMath();
+            //}
+            //catch (Exception e)
+            //{
+            //    logerDll.Log("Сheck method.|" + e.Message);
+            //}
+
             try
             {
-                FakeError fakeError = new FakeError();
-                fakeError.DoSomeMath();
+                logger.Info("Hello world");
+                throw new IndexOutOfRangeException();
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                logerDll.Log("Сheck method.|" + e.Message);
+                logger.Error(ex, "Bye!");
             }
         }
     }
