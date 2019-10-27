@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkLogger", "HomeworkL
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkSerialization", "HomeworkSerialization\HomeworkSerialization.csproj", "{954A3752-D2B1-49B1-9309-E560BAFA6E92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkReflection", "HomeworkReflection\HomeworkReflection.csproj", "{A19BF521-9743-40C4-AF38-B62C9F4A03DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkReflection", "HomeworkReflection\HomeworkReflection.csproj", "{A19BF521-9743-40C4-AF38-B62C9F4A03DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkStyleCoding", "HomeworkStyleCoding\HomeworkStyleCoding.csproj", "{3373EA8A-1955-41D8-AAF1-034499C13781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{A19BF521-9743-40C4-AF38-B62C9F4A03DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A19BF521-9743-40C4-AF38-B62C9F4A03DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A19BF521-9743-40C4-AF38-B62C9F4A03DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3373EA8A-1955-41D8-AAF1-034499C13781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3373EA8A-1955-41D8-AAF1-034499C13781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3373EA8A-1955-41D8-AAF1-034499C13781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3373EA8A-1955-41D8-AAF1-034499C13781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

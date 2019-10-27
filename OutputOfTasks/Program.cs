@@ -16,6 +16,7 @@
             var runnerIoStreams = new HomeworkIoStreams.OutputTasks(new Output());
             var runnerSerialization = new HomeworkSerialization.OutputTasks(new Output());
             var runnerReflection = new HomeworkReflection.OutputTasks(new Output());
+            var runnerStyleCoding = new HomeworkStyleCoding.OutputTasks(new Output());
 
             while (!isCheckedHomework)
             {
@@ -28,6 +29,7 @@
                     "(4) Check tasks with IOStreams;\n" +
                     "(5) Check tasks with Serialization;\n" +
                     "(6) Check tasks with Reflection;\n" +
+                    "(6) Check tasks with StyleCoding;\n" +
                     "(0)  Exit.\n");
                 Console.WriteLine("What action do you choose?");
                 string number = Console.ReadLine();
@@ -60,6 +62,11 @@
                         break;
                     case "6":
                         runnerReflection.RunTasks();
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
+                    case "7":
+                        runnerStyleCoding.RunTasks();
                         Console.ReadKey();
                         Console.Clear();
                         break;

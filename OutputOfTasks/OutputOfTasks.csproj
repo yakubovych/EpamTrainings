@@ -21,6 +21,7 @@
     <ProjectReference Include="..\HomeworkReflection\HomeworkReflection.csproj" />
     <ProjectReference Include="..\HomeworkSerialization\HomeworkSerialization.csproj" />
     <ProjectReference Include="..\HomeworkStructures\HomeworkStructures.csproj" />
+    <ProjectReference Include="..\HomeworkStyleCoding\HomeworkStyleCoding.csproj" />
     <ProjectReference Include="..\LibraryOfProject\LibraryOfProject.csproj" />
   </ItemGroup>
 
