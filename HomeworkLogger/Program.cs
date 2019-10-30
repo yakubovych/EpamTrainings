@@ -1,9 +1,7 @@
 ﻿namespace HomeworkLogger
 {
     using System;
-    using LibraryOfProject;
     using NLog;
-    using System.Configuration;
 
     class Program
     {
