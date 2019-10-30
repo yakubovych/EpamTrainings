@@ -6,6 +6,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\..\Users\38063\.nuget\packages\nlog.config\4.6.7\contentFiles\any\any\NLog.config" Link="NLog.config">
+      <Private>True</Private>
+      <NuGetPackageVersion>4.6.7</NuGetPackageVersion>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <NuGetItemType>None</NuGetItemType>
+      <TargetPath>NLog.config</TargetPath>
+      <NuGetPackageId>NLog.Config</NuGetPackageId>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.6.7" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -14,15 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HomeworkEnums\HomeworkEnums.csproj" />
-    <ProjectReference Include="..\HomeworkExceptions\HomeworkExceptions.csproj" />
-    <ProjectReference Include="..\HomeworkIoStream\HomeworkIoStreams.csproj" />
     <ProjectReference Include="..\HomeworkLogger\HomeworkLogger.csproj" />
-    <ProjectReference Include="..\HomeworkReflection\HomeworkReflection.csproj" />
-    <ProjectReference Include="..\HomeworkSerialization\HomeworkSerialization.csproj" />
-    <ProjectReference Include="..\HomeworkSolid\HomeworkSolid.csproj" />
-    <ProjectReference Include="..\HomeworkStructures\HomeworkStructures.csproj" />
-    <ProjectReference Include="..\HomeworkStyleCoding\HomeworkStyleCoding.csproj" />
     <ProjectReference Include="..\LibraryOfProject\LibraryOfProject.csproj" />
   </ItemGroup>
 
