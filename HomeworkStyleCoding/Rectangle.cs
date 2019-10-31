@@ -2,7 +2,7 @@
 {
     using System;
 
-    public class Rectangle
+    public class Rectangle : IRectangle
     {
         private int x;
         private int y;
