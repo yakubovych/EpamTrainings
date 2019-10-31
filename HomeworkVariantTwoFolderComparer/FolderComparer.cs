@@ -39,7 +39,6 @@
             }
 
             var directoryInfo = new DirectoryInfo(path);
-            var directories = directoryInfo.GetDirectories();
             var filesInfo = directoryInfo.GetFiles();
             var files = new HashSet<string>();
 

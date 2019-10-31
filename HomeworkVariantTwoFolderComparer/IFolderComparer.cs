@@ -7,7 +7,5 @@
         ICollection<string> UniqueFiles();
 
         ICollection<string> DuplicateFiles();
-
-        int NumberOfDuplicateFiles();
     }
 }
