@@ -1,9 +1,9 @@
-﻿using LibraryOfProject;
-using NLog;
-using System;
-
-namespace HomeworkSolid
+﻿namespace HomeworkSolid
 {
+    using System;
+    using LibraryOfProject;
+    using NLog;
+
     public class OutputTasks
     {
         private static Logger logger = LogManager.GetCurrentClassLogger();
@@ -33,8 +33,8 @@ namespace HomeworkSolid
 
             try
             {
-                calculator.CalculateToConsole(firstNumber, secondNumber);
-                calculator.CalculateToFile(firstNumber, secondNumber);
+                calculator.CalculateToConsole(firstNumber, secondNumber, '+');
+                calculator.CalculateToFile(firstNumber, secondNumber, '/');
                 calculator.ReadFromFile();
             }
             catch (Exception ex)

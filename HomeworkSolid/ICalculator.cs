@@ -2,9 +2,9 @@
 {
     public interface ICalculator
     {
-        void CalculateToConsole(int x, int y);
+        void CalculateToConsole(int x, int y, char operation);
 
-        void CalculateToFile(int x, int y);
+        void CalculateToFile(int x, int y, char operation);
 
         void ReadFromFile();
     }
