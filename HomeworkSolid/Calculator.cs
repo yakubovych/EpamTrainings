@@ -45,7 +45,6 @@
                     default:
                         Console.WriteLine("Input error!");
                         break;
-
                 }
             }
             catch (DivideByZeroException ex)
