@@ -9,7 +9,6 @@
 
         static void Main(string[] args)
         {
-
             var runnerStructures = new HomeworkStructures.OutputTasks(new Output());
             var runnerEnums = new HomeworkEnums.OutputTasks(new Output());
             var runnnerExceptions = new HomeworkExceptions.OutputTasks(new Output());
@@ -18,6 +17,7 @@
             var runnerReflection = new HomeworkReflection.OutputTasks(new Output());
             var runnerStyleCoding = new HomeworkStyleCoding.OutputTasks(new Output());
             var runnerSolid = new HomeworkSolid.OutputTasks(new Output());
+            var runnerVariantTwo = new HomeworkVariantTwoFolderComparer.OutputTasks(new Output());
 
             while (!isCheckedHomework)
             {
@@ -32,6 +32,7 @@
                     "(6) Check tasks with Reflection;\n" +
                     "(7) Check tasks with StyleCoding;\n" +
                     "(8) Check tasks with Solid;\n" +
+                    "(9) Check tasks with variant 2 - FolderComparer.\n" +
                     "(0)  Exit.\n");
                 Console.WriteLine("What action do you choose?");
                 string number = Console.ReadLine();
@@ -74,6 +75,11 @@
                         break;
                     case "8":
                         runnerSolid.RunTasks();
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
+                    case "9":
+                        runnerVariantTwo.RunTasks();
                         Console.ReadKey();
                         Console.Clear();
                         break;
