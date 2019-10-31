@@ -23,6 +23,7 @@
     <ProjectReference Include="..\HomeworkSolid\HomeworkSolid.csproj" />
     <ProjectReference Include="..\HomeworkStructures\HomeworkStructures.csproj" />
     <ProjectReference Include="..\HomeworkStyleCoding\HomeworkStyleCoding.csproj" />
+    <ProjectReference Include="..\HomeworkVariantOneExcel\HomeworkVariantOneExcel.csproj" />
     <ProjectReference Include="..\HomeworkVariantTwoFolderComparer\HomeworkVariantTwoFolderComparer.csproj" />
     <ProjectReference Include="..\LibraryOfProject\LibraryOfProject.csproj" />
   </ItemGroup>
