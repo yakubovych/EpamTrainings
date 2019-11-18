@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkSolid", "HomeworkSo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkVariantTwoFolderComparer", "HomeworkVariantTwoFolderComparer\HomeworkVariantTwoFolderComparer.csproj", "{BD5AC6EF-FCAD-433B-9DDB-2F9DB3922AC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkVariantOneExcel", "HomeworkVariantOneExcel\HomeworkVariantOneExcel.csproj", "{6C8CF8ED-6D2A-4F1E-9178-7577CECD9FCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkVariantOneExcel", "HomeworkVariantOneExcel\HomeworkVariantOneExcel.csproj", "{6C8CF8ED-6D2A-4F1E-9178-7577CECD9FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkAsynchrony", "HomeworkAsynchrony\HomeworkAsynchrony.csproj", "{281B92F1-7D86-42BD-97D7-CBFFA1B56A05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{6C8CF8ED-6D2A-4F1E-9178-7577CECD9FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C8CF8ED-6D2A-4F1E-9178-7577CECD9FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C8CF8ED-6D2A-4F1E-9178-7577CECD9FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281B92F1-7D86-42BD-97D7-CBFFA1B56A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281B92F1-7D86-42BD-97D7-CBFFA1B56A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281B92F1-7D86-42BD-97D7-CBFFA1B56A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281B92F1-7D86-42BD-97D7-CBFFA1B56A05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

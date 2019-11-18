@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Users\yakub\.nuget\packages\nlog.config\4.6.7\contentFiles\any\any\NLog.config" Link="NLog.config">
+      <Private>True</Private>
+      <NuGetPackageVersion>4.6.7</NuGetPackageVersion>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <NuGetItemType>None</NuGetItemType>
+      <TargetPath>NLog.config</TargetPath>
+      <NuGetPackageId>NLog.Config</NuGetPackageId>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.6.8" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryOfProject\LibraryOfProject.csproj" />
+  </ItemGroup>
+
+</Project>
