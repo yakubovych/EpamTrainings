@@ -19,6 +19,7 @@
             var runnerSolid = new HomeworkSolid.OutputTasks(new Output());
             var runnerVariantOne = new HomeworkVariantOneExcel.OutputTasks(new Output());
             var runnerVariantTwo = new HomeworkVariantTwoFolderComparer.OutputTasks(new Output());
+            var runnerAsynchron = new HomeworkAsynchrony.OutputTasks(new Output());
 
             while (!isCheckedHomework)
             {
@@ -35,6 +36,7 @@
                     "(8) Check tasks with Solid;\n" +
                     "(9) Check tasks with variant 1 - Excel;\n" +
                     "(10) Check tasks with variant 2 - FolderComparer;\n" +
+                    "(11) Check tasks with AsynchronousProgramming;\n" +
                     "(0)  Exit.\n");
                 Console.WriteLine("What action do you choose?");
                 string number = Console.ReadLine();
@@ -87,6 +89,11 @@
                         break;
                     case "10":
                         runnerVariantTwo.RunTasks();
+                        Console.ReadKey();
+                        Console.Clear();
+                        break;
+                    case "11":
+                        runnerAsynchron.RunTasks();
                         Console.ReadKey();
                         Console.Clear();
                         break;

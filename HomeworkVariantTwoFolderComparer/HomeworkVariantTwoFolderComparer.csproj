@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\Users\38063\.nuget\packages\nlog.config\4.6.7\contentFiles\any\any\NLog.config" Link="NLog.config">
+    <None Include="..\..\..\Users\yakub\.nuget\packages\nlog.config\4.6.7\contentFiles\any\any\NLog.config" Link="NLog.config">
       <Private>True</Private>
       <NuGetPackageVersion>4.6.7</NuGetPackageVersion>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
