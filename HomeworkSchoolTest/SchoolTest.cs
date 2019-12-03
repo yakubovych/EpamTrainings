@@ -14,7 +14,6 @@ namespace SchoolTest
             try
             {
                 School school = new School();
-
                 school.AddStudent(new Student(50000, "Petro"));
                 Assert.Throws<ArgumentException>(() => school.AddStudent(new Student(50000, "Petro")));
             }
