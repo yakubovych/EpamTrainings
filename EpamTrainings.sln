@@ -29,7 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkVariantTwoFolderCom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkVariantOneExcel", "HomeworkVariantOneExcel\HomeworkVariantOneExcel.csproj", "{6C8CF8ED-6D2A-4F1E-9178-7577CECD9FCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkAsynchrony", "HomeworkAsynchrony\HomeworkAsynchrony.csproj", "{281B92F1-7D86-42BD-97D7-CBFFA1B56A05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkAsynchrony", "HomeworkAsynchrony\HomeworkAsynchrony.csproj", "{281B92F1-7D86-42BD-97D7-CBFFA1B56A05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkIoC", "HomeworkIoC\HomeworkIoC.csproj", "{806B8301-4935-4706-99D6-C9A1663219C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkUnitTests", "HomeworkUnitTests\HomeworkUnitTests.csproj", "{B62CE87C-ED40-481C-A0B0-09896D124FC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolTest", "HomeworkSchoolTest\SchoolTest.csproj", "{B4776EA7-ACD3-47DB-B9A2-9432032D831E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +99,18 @@ Global
 		{281B92F1-7D86-42BD-97D7-CBFFA1B56A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{281B92F1-7D86-42BD-97D7-CBFFA1B56A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{281B92F1-7D86-42BD-97D7-CBFFA1B56A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806B8301-4935-4706-99D6-C9A1663219C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806B8301-4935-4706-99D6-C9A1663219C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806B8301-4935-4706-99D6-C9A1663219C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806B8301-4935-4706-99D6-C9A1663219C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B62CE87C-ED40-481C-A0B0-09896D124FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62CE87C-ED40-481C-A0B0-09896D124FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62CE87C-ED40-481C-A0B0-09896D124FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62CE87C-ED40-481C-A0B0-09896D124FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4776EA7-ACD3-47DB-B9A2-9432032D831E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4776EA7-ACD3-47DB-B9A2-9432032D831E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4776EA7-ACD3-47DB-B9A2-9432032D831E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4776EA7-ACD3-47DB-B9A2-9432032D831E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
