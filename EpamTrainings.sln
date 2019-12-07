@@ -33,9 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkAsynchrony", "Homew
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkIoC", "HomeworkIoC\HomeworkIoC.csproj", "{806B8301-4935-4706-99D6-C9A1663219C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkUnitTests", "HomeworkUnitTests\HomeworkUnitTests.csproj", "{B62CE87C-ED40-481C-A0B0-09896D124FC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkUnitTests", "HomeworkUnitTests\HomeworkUnitTests.csproj", "{B62CE87C-ED40-481C-A0B0-09896D124FC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolTest", "HomeworkSchoolTest\SchoolTest.csproj", "{B4776EA7-ACD3-47DB-B9A2-9432032D831E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolTest", "HomeworkSchoolTest\SchoolTest.csproj", "{B4776EA7-ACD3-47DB-B9A2-9432032D831E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCTests", "IoCTests\IoCTests.csproj", "{F3317A09-4CFE-4F7E-B21E-619EC4081316}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{B4776EA7-ACD3-47DB-B9A2-9432032D831E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4776EA7-ACD3-47DB-B9A2-9432032D831E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4776EA7-ACD3-47DB-B9A2-9432032D831E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3317A09-4CFE-4F7E-B21E-619EC4081316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3317A09-4CFE-4F7E-B21E-619EC4081316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3317A09-4CFE-4F7E-B21E-619EC4081316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3317A09-4CFE-4F7E-B21E-619EC4081316}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
