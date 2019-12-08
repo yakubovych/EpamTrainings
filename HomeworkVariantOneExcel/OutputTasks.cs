@@ -31,7 +31,7 @@
 
                 Excel excel = new Excel(firstColumn, secondColumn);
 
-                excel.WriteToExcel();
+                // excel.WriteToExcel();
                 Output.Write("Full data from excel file: ");
 
                 excel.ReadExcel();

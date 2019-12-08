@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkUnitTests", "Homewo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolTest", "HomeworkSchoolTest\SchoolTest.csproj", "{B4776EA7-ACD3-47DB-B9A2-9432032D831E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoCTests", "IoCTests\IoCTests.csproj", "{F3317A09-4CFE-4F7E-B21E-619EC4081316}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoCTests", "IoCTests\IoCTests.csproj", "{F3317A09-4CFE-4F7E-B21E-619EC4081316}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

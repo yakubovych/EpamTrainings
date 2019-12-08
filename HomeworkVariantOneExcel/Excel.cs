@@ -26,32 +26,11 @@
             return uniqueValues;
         }
 
-        public void WriteToExcel()
-        {
-            List<PersonDetails> persons = new List<PersonDetails>()
-            {
-                new PersonDetails() {Id = 95, Name = "Roman", Country = "Andrew", City = "Kyiv"},
-                new PersonDetails() {Id = 83, Name = "Andrew", Country = "Ukraine", City = "Lviv"},
-                new PersonDetails() {Id = 62, Name = "Stepan", Country = "Stepan", City = "Kyiv" },
-                new PersonDetails() {Id = 64, Name = "Petro", Country = "Poland", City = "Lviv"},
-            };
-
-            // Lets converts our object data to Datatable for a simplified logic.
-            DataTable table = (DataTable)JsonConvert.DeserializeObject(JsonConvert.SerializeObject(persons), (typeof(DataTable)));
-            FileInfo filePath = new FileInfo(path);
-            using (var excelPack = new ExcelPackage(filePath))
-            {
-                var ws = excelPack.Workbook.Worksheets.Add("WriteTest");
-                ws.Cells.LoadFromDataTable(table, true, OfficeOpenXml.Table.TableStyles.Light8);
-                excelPack.Save();
-            }
-        }
-
         public void ReadExcel()
         {
             try
             {
-                using (ExcelPackage package = new ExcelPackage(file))
+                using (var package = new ExcelPackage(AccessFilesOnOneDrive.GetFileFromOneDriveAsync().Result))
                 {
                     ExcelWorksheet worksheet = package.Workbook.Worksheets[1];
                     int rowCount = worksheet.Dimension.Rows;
@@ -84,7 +63,7 @@
 
             try
             {
-                using (ExcelPackage package = new ExcelPackage(file))
+                using (ExcelPackage package = new ExcelPackage(AccessFilesOnOneDrive.GetFileFromOneDriveAsync().Result))
                 {
                     ExcelWorksheet worksheet = package.Workbook.Worksheets[1];
                     int rowCaunt = 1;
@@ -114,5 +93,26 @@
             _unique.ExceptWith(duplicate);
             return _unique;
         }
+
+        // public void WriteToExcel()
+        // {
+        //    List<PersonDetails> persons = new List<PersonDetails>()
+        //    {
+        //        new PersonDetails() {Id = 95, Name = "Roman", Country = "Andrew", City = "Kyiv"},
+        //        new PersonDetails() {Id = 83, Name = "Andrew", Country = "Ukraine", City = "Lviv"},
+        //        new PersonDetails() {Id = 62, Name = "Stepan", Country = "Stepan", City = "Kyiv" },
+        //        new PersonDetails() {Id = 64, Name = "Petro", Country = "Poland", City = "Lviv"},
+        //    };
+
+        // // Lets converts our object data to Datatable for a simplified logic.
+        //    DataTable table = (DataTable)JsonConvert.DeserializeObject(JsonConvert.SerializeObject(persons), (typeof(DataTable)));
+        //    FileInfo filePath = new FileInfo(path);
+        //    using (var excelPack = new ExcelPackage(filePath))
+        //    {
+        //        var ws = excelPack.Workbook.Worksheets.Add("WriteTest");
+        //        ws.Cells.LoadFromDataTable(table, true, OfficeOpenXml.Table.TableStyles.Light8);
+        //        excelPack.Save();
+        //    }
+        // }
     }
 }
