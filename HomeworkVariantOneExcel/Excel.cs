@@ -30,7 +30,7 @@
         {
             try
             {
-                using (var package = new ExcelPackage(AccessFilesOnOneDrive.GetFileFromOneDriveAsync().Result))
+                using (var package = new ExcelPackage(AccessFilesOnOneDrive.GetFile()))
                 {
                     ExcelWorksheet worksheet = package.Workbook.Worksheets[1];
                     int rowCount = worksheet.Dimension.Rows;
@@ -63,7 +63,7 @@
 
             try
             {
-                using (ExcelPackage package = new ExcelPackage(AccessFilesOnOneDrive.GetFileFromOneDriveAsync().Result))
+                using (ExcelPackage package = new ExcelPackage(AccessFilesOnOneDrive.GetFile()))
                 {
                     ExcelWorksheet worksheet = package.Workbook.Worksheets[1];
                     int rowCaunt = 1;

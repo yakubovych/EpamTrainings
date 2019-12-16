@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace HomeworkUnitTests
+﻿namespace HomeworkUnitTests
 {
+    using System;
+    using System.Collections.Generic;
+
     public class Course
     {
         private readonly SortedSet<Student> students = new SortedSet<Student>();

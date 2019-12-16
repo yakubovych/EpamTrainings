@@ -6,7 +6,7 @@
     {
         void ReadExcel();
 
-        void WriteToExcel();
+        // void WriteToExcel();
 
         HashSet<string> CompareColumnsAndGetUnique(int FirstColumn, int SecondColumn);
     }

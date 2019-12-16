@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace HomeworkUnitTests
+﻿namespace HomeworkUnitTests
 {
+    using System;
+
     public class Student : IComparable<Student>
     {
         public string Name
